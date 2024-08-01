@@ -1,0 +1,2 @@
+Name: "AWS Pokémon Application"
+Description: This script sets up an AWS environment for managing Pokémon data, including creating DynamoDB tables, storing Pokémon data, and providing a menu-driven interface for interacting with the data.
