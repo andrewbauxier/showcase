@@ -1,0 +1,84 @@
+<!-- 
+project: aaDesign
+module: landing.html
+author: andrew b. auxier
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>contact.html</title>
+        <link rel="icon" href="/img/aaDesignFavIcon.png" type="image/icon type" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <nav></nav>
+    </head>
+    <body>
+        <main class="content">
+            <h1 class="page-title centered-heading shadowed-text">下記フォームよりお気軽にご連絡ください。</h1>
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="contact-input-block">
+                        <label for="fname" class="contact-input-label">First Name</label>
+                        <input
+                            class="contact-input-field"
+                            type="text"
+                            id="fname"
+                            name="firstname"
+                            placeholder="Your First Name.."
+                            autocomplete="given-name"
+                        />
+                    </div>
+
+                    <div class="contact-input-block">
+                        <label for="lname" class="contact-input-label">Last Name</label>
+                        <input
+                            class="contact-input-field"
+                            type="text"
+                            id="lname"
+                            name="lastname"
+                            placeholder="Your Last Name.."
+                            autocomplete="family-name"
+                        />
+                    </div>
+
+                    <div class="contact-input-block">
+                        <label for="email" class="contact-input-label">Email</label>
+                        <input
+                            class="contact-input-field"
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Your Email Address.."
+                            autocomplete="email"
+                        />
+                    </div>
+
+                    <div class="contact-input-block">
+                        <label class="contact-input-label" for="message-area">Message:</label>
+                        <textarea
+                            class="contact-input-field"
+                            id="message-area"
+                            name="message-area"
+                            rows="4"
+                            cols="50"
+                            placeholder="Enter your message here."
+                        ></textarea>
+                    </div>
+
+                    <div class="contact-submit-button-container">
+                        <p>By clicking "Submit", you agree to all policies related to this website.</p>
+                        <input class="contact-submit-button" type="submit" value="Submit" />
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer></footer>
+
+        <script src="./js/nav.js" defer></script>
+        <script src="./js/footer.js" defer></script>
+        <script src="./js/global.js" defer></script>
+    </body>
+</html>
